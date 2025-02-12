@@ -1,0 +1,10 @@
+git config --global user.name melana123
+git config --global user.email melana.etec@gmail.com
+
+
+npx create-expo-app@latest StickerSmash
+
+cd StickerSmash
+
+
+
