@@ -1,10 +1,16 @@
 git config --global user.name melana123
 git config --global user.email melana.etec@gmail.com
 
-
 npx create-expo-app@latest StickerSmash
 
 cd StickerSmash
+nmp i
 
 npm run reset-project
+
+executar na web
+npx expo start --web
+
+Executar o projeto no cel
+npx expo start --localhost --android
 
