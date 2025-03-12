@@ -4,7 +4,8 @@ git config --global user.email melana.etec@gmail.com
 npx create-expo-app@latest StickerSmash
 
 cd StickerSmash
-nmp i
+npm i
+npx expo start
 
 npm run reset-project
 
