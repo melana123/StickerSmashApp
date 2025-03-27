@@ -52,8 +52,8 @@ export default function Index() {
           <View style={styles.optionsRow}>
             <IconButton icon="refresh" label="Resetar" onPress={onReset} />
             <CircleButton onPress={onAddSticker} />
-            <IconButton icon="save-alt" label="Salvar" onPress={onSaveImageAsync}
-            </View>
+            <IconButton icon="save-alt" label="Salvar" onPress={onSaveImageAsync}/>
+          </View>
         </View>
       ) : (
         <View style={styles.footerContainer}>
@@ -81,5 +81,14 @@ const styles = StyleSheet.create({
   footerContainer: {
     flex: 1 / 3,
     alignItems: 'center',
+  },
+  optionsContainer: {
+    position: 'absolute',
+    bottom:80,
+  },
+  optionsRow: {
+    alignItems: 'center',
+    flexDirection:'row',
   }
+  
 })
