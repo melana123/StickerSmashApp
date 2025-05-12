@@ -6,7 +6,7 @@ import * as ImagePicker from 'expo-image-picker';
 import IconButton from "@/components/IconButton";
 import CircleButton from "@/components/CircleButton";
 import EmojiPicker from "@/components/EmojiPicker";
-import { type ImageSource } from 'expo-image'
+import { type ImageSource } from 'expo-image';
 import EmojiList from "@/components/EmojiList";
 import EmojiSticker from "@/components/EmojiSticker";
 import {GestureHandlerRootView} from 'react-native-gesture-handler';
