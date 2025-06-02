@@ -16,3 +16,4 @@ Executar o projeto no cel
 npx expo start --localhost --android
 
 cd npx expo 
+npm install dom-to-image
