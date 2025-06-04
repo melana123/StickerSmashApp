@@ -17,7 +17,7 @@ export default function TabLayout() {
       <Tabs.Screen
         name="index"
         options={{ 
-          title: 'Home',
+          title: 'Página Inicial',
           tabBarIcon: ({ color, focused }) => (
             <Ionicons
               name={ focused ? 'home-sharp' : 'home-outline' }
